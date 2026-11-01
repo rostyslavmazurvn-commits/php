@@ -1,0 +1,16 @@
+Tytuł projektu: Automatyzacja analizy opłacalności przedmiotów i optymalizacja zleceń rynkowych w Albion Online.
+
+Opis problemu:
+Gracze aktywnie zajmujący się handlem (tradingiem) oraz wytwarzaniem przedmiotów (craftingiem) w grze Albion Online napotykają na poważny problem efektywnej analizy rynku oraz zarządzania setkami aktywnych zleceń kupna i sprzedaży (buy/sell orders).
+
+Główne trudności to:
+1. Ręczna identyfikacja najbardziej zyskownych przedmiotów: Analiza tego, które przedmioty (np. mikstury, wyposażenie, zasoby) mają obecnie najwyższą marżę i największy wolumen sprzedaży, jest czasochłonna i wymaga ręcznego sprawdzania cen na rynku lub prowadzenia skomplikowanych arkuszy kalkulacyjnych.
+2. Ukryte koszty i podatki: Trudność w precyzyjnym wyliczaniu zysku netto po uwzględnieniu podatku od sprzedaży (sales tax), opłaty za wystawienie oferty (setup fee), zwrotu surowców (Resource Return Rate) oraz zużycia punktów skupienia (Focus).
+3. Brak alertów o podcięciu cen (Undercutting): Konkurencyjni gracze szybko podcinają oferty użytkownika, co powoduje zamrożenie kapitału w niesprzedanych przedmiotach i spadek ich rentowności.
+
+Jak rozwiązanie programistyczne może to rozwiązać:
+Planowane rozwiązanie programistyczne (np. aplikacja webowa lub skrypt z interfejsem graficznym zintegrowany z zewnętrznym API danych rynkowych Albion Data Project) pozwoli na:
+Automatyczną analizę rynku i wyszukiwanie przedmiotów o najwyższej rentowności do wytworzenia lub odsprzedaży w danym momencie.
+Dokładne kalkulowanie czystego zysku netto (ROI) dla poszczególnych przedmiotów z automatycznym uwzględnieniem opłat rynkowych, premii do craftingu oraz punktów skupienia.
+Monitorowanie statusu własnych zleceń sprzedaży i generowanie alertów (np. powiadomień na Discordzie), gdy cena przedmiotu zostanie podcięta przez innego gracza.
+Śledzenie historii cen i wolumenu obrotu danych przedmiotów, co zapobiega inwestowaniu w towary o niskiej płynności rynkowej.

@@ -1,0 +1,11 @@
+ANALIZA ISTNIEJĄCYCH ROZWIĄZAŃ I INNOWACYJNOŚĆ PROJEKTU
+
+1. PRZEGLĄD ROZWIĄZAŃ I ICH OGRANICZENIA:
+Publiczne kalkulatory webowe (np. Albion Free Market): Darmowe i łatwe, ale bardzo statyczne. Brak personalizacji (specyfikacji, bonusów miast), monitorowania własnych zleceń i systemów alertów.
+Arkusze kalkulacyjne (Google Sheets/Excel): Elastyczne, ale wolne przy dużej skali, trudne w obsłudze dla przeciętnego gracza, wymagające ręcznych aktualizacji i trudne w integracji z powiadomieniami.
+Prywatne narzędzia gildyjne / na zamówienie: Posiadają pełną funkcjonalność (automatyzacja, alerty), ale są hermetycznie zamknięte dla wąskich grup lub niedostępne publicznie.
+
+2. UNIKALNA WARTOŚĆ I LUKA RYNKOWA:
+Sama logika matematyczna projektu opiera się na znanych modelach, jednakw otwartym dostępie praktycznie nie ma kompletnych narzędzi łączących analizę craftingu z systemem natychmiastowych alertów o podcięciu cen. 
+Projekt wypełnia tę lukę, łącząc w jedno darmowe/ogólnodostępne narzędzie:
+System powiadomień (np. Discord) chroniący przed podcinaniem cen.
